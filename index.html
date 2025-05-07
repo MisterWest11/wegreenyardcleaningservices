@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We Green Yard Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="text-2xl font-bold text-green-700">We Green Yard Services</div>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex space-x-8">
+        <a href="#services" class="text-gray-600 hover:text-green-700">Services</a>
+        <a href="#benefits" class="text-gray-600 hover:text-green-700">Why Us</a>
+        <a href="#pricing" class="text-gray-600 hover:text-green-700">Pricing</a>
+        <a href="#contact" class="text-gray-600 hover:text-green-700">Contact</a>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <button id="menu-toggle" class="md:hidden text-gray-600" aria-label="Toggle Menu">
+        <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+             viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+      <div class="container mx-auto px-4 py-2 flex flex-col space-y-3">
+        <a href="#services" class="text-gray-600 hover:text-green-700 py-2">Services</a>
+        <a href="#benefits" class="text-gray-600 hover:text-green-700 py-2">Why Us</a>
+        <a href="#testimonials" class="text-gray-600 hover:text-green-700 py-2">Testimonials</a>
+        <a href="#pricing" class="text-gray-600 hover:text-green-700 py-2">Pricing</a>
+        <a href="#contact" class="text-gray-600 hover:text-green-700 py-2">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-green-800 to-green-600 text-white">
+    <div class="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 md:pr-8 mb-8 md:mb-0">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          Creating Beautiful & Sustainable Outdoor Spaces
+        </h1>
+        <p class="text-lg mb-6">
+          We focus on the beauty of your outdoor space using eco-friendly practices.
+          Making your house or business welcoming to visitors while protecting our environment.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#contact" class="bg-white text-green-700 hover:bg-gray-100 font-medium py-3 px-6 rounded-lg shadow transition-colors">
+            Get a Free Quote
+          </a>
+          <a href="#services" class="bg-transparent border-2 border-white hover:bg-white hover:bg-opacity-20 py-3 px-6 rounded-lg transition-colors">
+            Our Services
+          </a>
+        </div>
+      </div>
+      <div class="md:w-1/2">
+        <img src="images/Foreground picture.jpg" alt="Well-maintained yard with professional landscaping" class="rounded-lg shadow-lg w-full h-auto object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+<section id="services" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-2">Our Services</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          We offer comprehensive yard cleaning services to keep your outdoor
+          spaces looking their best year-round.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Grass Cutting -->
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div class="mb-4">
+            <!-- Scissors Icon -->
+            <svg class="h-10 w-10 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M14.5 17.5 4 4m16 0L4 20M6 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm12-12a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Grass Cutting</h3>
+          <p class="text-gray-600">Professional lawn mowing and maintenance to keep your grass healthy and beautiful</p>
+        </div>
+  
+        <!-- Weed Removal -->
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div class="mb-4">
+            <!-- Trash2 Icon -->
+            <svg class="h-10 w-10 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M3 6h18M8 6V4h8v2M10 11v6m4-6v6M5 6l1 14h12l1-14"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Weed Removal</h3>
+          <p class="text-gray-600">Natural and effective weed control to protect your landscape</p>
+        </div>
+  
+        <!-- Roof Cleaning & Painting -->
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div class="mb-4">
+            <!-- PaintBucket Icon -->
+            <svg class="h-10 w-10 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M2 14 14 2l8 8-12 12Z" />
+              <path d="M14.5 5.5 16 7" />
+              <path d="M5 13 11 7" />
+              <path d="M15 11h.01" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Roof Cleaning & Painting</h3>
+          <p class="text-gray-600">Professional roof cleaning service to maintain the appearance of your home</p>
+        </div>
+  
+        <!-- Painting -->
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div class="mb-4">
+            <!-- PaintRoller Icon -->
+            <svg class="h-10 w-10 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M15 2h5v6h-5z" />
+              <path d="M2 6h13" />
+              <path d="M6 6v12" />
+              <path d="M6 18h8" />
+              <path d="M10 18v4" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Painting</h3>
+          <p class="text-gray-600">Expert painting service to enhance the appearance of your property</p>
+        </div>
+  
+        <!-- Flower Bed Maintenance -->
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div class="mb-4">
+            <!-- Flower Icon -->
+            <svg class="h-10 w-10 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M12 22v-3" />
+              <path d="M5.99 17.35 8 15.5" />
+              <path d="M2 12h3" />
+              <path d="M5.99 6.65 8 8.5" />
+              <path d="M12 2v3" />
+              <path d="m18.01 6.65-2.01 1.85" />
+              <path d="M22 12h-3" />
+              <path d="m18.01 17.35-2.01-1.85" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Flower Bed Maintenance</h3>
+          <p class="text-gray-600">Careful maintenance and nurturing of your flower beds and gardens</p>
+        </div>
+  
+        <!-- Hedge Trimming -->
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div class="mb-4">
+            <!-- TreePine Icon -->
+            <svg class="h-10 w-10 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="m12 2 5 6H7l5-6Z" />
+              <path d="m12 8 5 6H7l5-6Z" />
+              <path d="m12 14 5 6H7l5-6Z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Hedge Trimming</h3>
+          <p class="text-gray-600">Professional trimming and shaping of hedges and shrubs for a manicured look</p>
+        </div>
+      </div>
+      <div class="mt-12 text-center">
+        <a href="#contact" class="inline-block bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg shadow transition-colors">
+          Request a Service
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Benefits Section -->
+  <section id="benefits" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+        <!-- Vision -->
+        <div class="bg-green-50 p-8 rounded-lg">
+          <div class="flex items-center mb-4">
+            <!-- Target Icon -->
+            <svg class="h-8 w-8 text-green-600 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <circle cx="12" cy="12" r="10" />
+              <circle cx="12" cy="12" r="6" />
+              <circle cx="12" cy="12" r="2" />
+            </svg>
+            <h3 class="text-2xl font-bold text-gray-800">Our Vision</h3>
+          </div>
+          <p class="text-gray-600">Our vision is to create a more sustainable and beautiful environment by providing high-quality and eco-friendly yards to our customers.</p>
+        </div>
+        <!-- Mission -->
+        <div class="bg-green-50 p-8 rounded-lg">
+          <div class="flex items-center mb-4">
+            <!-- Flag Icon -->
+            <svg class="h-8 w-8 text-green-600 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M4 22V2h2" />
+              <path d="M6 6h14l-3 6 3 6H6" />
+            </svg>
+            <h3 class="text-2xl font-bold text-gray-800">Our Mission</h3>
+          </div>
+          <p class="text-gray-600">Our mission is to offer professional and reliable services that prioritize the health of our customers and the environment...</p>
+        </div>
+      </div>
+  
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-2">Why Choose Us</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          We offer a range of services tailored to your needs and budget, ensuring top results for your yard.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Eco-Friendly -->
+        <div class="text-center p-6">
+          <div class="mx-auto w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+            <!-- Leaf Icon -->
+            <svg class="h-8 w-8 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M2 22c0-6.075 4.925-11 11-11 3.866 0 7-3.134 7-7 0 6.075-4.925 11-11 11-3.866 0-7 3.134-7 7Z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Eco-Friendly Practices</h3>
+          <p class="text-gray-600">Using sustainable methods and organic products for a healthier environment.</p>
+        </div>
+  
+        <!-- Experienced Team -->
+        <div class="text-center p-6">
+          <div class="mx-auto w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+            <!-- Award Icon -->
+            <svg class="h-8 w-8 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <circle cx="12" cy="8" r="6" />
+              <path d="M15.3 14 12 22l-3.3-8Z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Experienced Team</h3>
+          <p class="text-gray-600">Professional team dedicated to creating and maintaining beautiful landscapes.</p>
+        </div>
+  
+        <!-- Customer Satisfaction -->
+        <div class="text-center p-6">
+          <div class="mx-auto w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+            <!-- ThumbsUp Icon -->
+            <svg class="h-8 w-8 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M7 10v12H3V10h4Z" />
+              <path d="M7 10V5a3 3 0 0 1 3-3l5 9v11h2.2a2 2 0 0 0 2-1.8l.7-7a2 2 0 0 0-2-2H15" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Customer Satisfaction</h3>
+          <p class="text-gray-600">Committed to exceeding expectations and creating lasting outdoor beauty.</p>
+        </div>
+  
+        <!-- Tailored Solutions -->
+        <div class="text-center p-6">
+          <div class="mx-auto w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+            <!-- DollarSign Icon -->
+            <svg class="h-8 w-8 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M12 2v20" />
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Tailored Solutions</h3>
+          <p class="text-gray-600">Customized services to fit your specific needs and budget.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-2">Transparent Service Pricing</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Affordable, customizable options based on your yard’s size and needs.
+        </p>
+      </div>
+  
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+  
+        <!-- Grass Maintenance -->
+        <div class="rounded-lg overflow-hidden shadow-md p-6 bg-white">
+          <h3 class="text-xl font-bold text-gray-800 mb-4">Grass Maintenance</h3>
+          <ul class="mb-6 space-y-3">
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>Low: R50 - R150</li>
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>Medium: R200 - R350</li>
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>High: R400 - R550</li>
+          </ul>
+          <a href="#contact" class="block text-center py-2 px-4 rounded-lg font-medium bg-green-600 hover:bg-green-700 text-white transition-colors">Book This Service</a>
+        </div>
+  
+        <!-- Roof Cleaning & Painting -->
+        <div class="rounded-lg overflow-hidden shadow-md p-6 bg-white">
+          <h3 class="text-xl font-bold text-gray-800 mb-4">Roof Cleaning & Painting</h3>
+          <ul class="mb-6 space-y-3">
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>Low: R400 - R550</li>
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>Medium: R600 - R750</li>
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>High: R800 - R950</li>
+          </ul>
+          <a href="#contact" class="block text-center py-2 px-4 rounded-lg font-medium bg-green-600 hover:bg-green-700 text-white transition-colors">Book This Service</a>
+        </div>
+  
+        <!-- Painting -->
+        <div class="rounded-lg overflow-hidden shadow-md p-6 bg-white">
+          <h3 class="text-xl font-bold text-gray-800 mb-4">Painting</h3>
+          <ul class="mb-6 space-y-3">
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>Low: R300 - R450</li>
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>Medium: R500 - R700</li>
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>High: R750 - R1000</li>
+          </ul>
+          <a href="#contact" class="block text-center py-2 px-4 rounded-lg font-medium bg-green-600 hover:bg-green-700 text-white transition-colors">Book This Service</a>
+        </div>
+  
+        <!-- Weed Removal -->
+        <div class="rounded-lg overflow-hidden shadow-md p-6 bg-white">
+          <h3 class="text-xl font-bold text-gray-800 mb-4">Weed Removal</h3>
+          <ul class="mb-6 space-y-3">
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>Low: R150 - R250</li>
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>Medium: R300 - R450</li>
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>High: R500 - R650</li>
+          </ul>
+          <a href="#contact" class="block text-center py-2 px-4 rounded-lg font-medium bg-green-600 hover:bg-green-700 text-white transition-colors">Book This Service</a>
+        </div>
+  
+        <!-- Flower Bed Maintenance -->
+        <div class="rounded-lg overflow-hidden shadow-md p-6 bg-white">
+          <h3 class="text-xl font-bold text-gray-800 mb-4">Flower Bed Maintenance</h3>
+          <ul class="mb-6 space-y-3">
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>Low: R200 - R300</li>
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>Medium: R350 - R500</li>
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>High: R550 - R700</li>
+          </ul>
+          <a href="#contact" class="block text-center py-2 px-4 rounded-lg font-medium bg-green-600 hover:bg-green-700 text-white transition-colors">Book This Service</a>
+        </div>
+  
+        <!-- Hedge Trimming -->
+        <div class="rounded-lg overflow-hidden shadow-md p-6 bg-white">
+          <h3 class="text-xl font-bold text-gray-800 mb-4">Hedge Trimming</h3>
+          <ul class="mb-6 space-y-3">
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>Low: R250 - R350</li>
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>Medium: R400 - R550</li>
+            <li class="flex items-start"><span class="text-green-600 mr-2">✔️</span>High: R600 - R800</li>
+          </ul>
+          <a href="#contact" class="block text-center py-2 px-4 rounded-lg font-medium bg-green-600 hover:bg-green-700 text-white transition-colors">Book This Service</a>
+        </div>
+  
+      </div>
+  
+      <div class="mt-12 text-center">
+        <p class="text-gray-600">Need something more specific? Contact us for a custom quote.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-2">Contact Us</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Ready to transform your yard? Get in touch for a free quote or to schedule a service.
+        </p>
+      </div>
+      <div class="flex flex-col lg:flex-row gap-8 max-w-5xl mx-auto">
+        
+        <!-- Contact Form -->
+        <div class="lg:w-1/2 bg-white rounded-lg shadow-md p-8">
+          <h3 class="text-xl font-bold mb-6 text-gray-800">Send Us a Message</h3>
+          <form action="https://formspree.io/f/movegwvl" method="POST" class="space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label for="name" class="block text-gray-700 mb-1">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name"
+                       class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" />
+              </div>
+              <div>
+                <label for="phone" class="block text-gray-700 mb-1">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number"
+                       class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" />
+              </div>
+            </div>
+            <div>
+              <label for="email" class="block text-gray-700 mb-1">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email address"
+                     class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" />
+            </div>
+            <div>
+              <label class="block text-gray-700 mb-2">Select Services</label>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                <label class="inline-flex items-center"><input type="checkbox" name="services" value="Grass Cutting" class="form-checkbox text-green-600" /><span class="ml-2 text-gray-700">Grass Cutting</span></label>
+                <label class="inline-flex items-center"><input type="checkbox" name="services" value="Weed Removal" class="form-checkbox text-green-600" /><span class="ml-2 text-gray-700">Weed Removal</span></label>
+                <label class="inline-flex items-center"><input type="checkbox" name="services" value="Roof Cleaning & Painting" class="form-checkbox text-green-600" /><span class="ml-2 text-gray-700">Roof Cleaning & Painting</span></label>
+                <label class="inline-flex items-center"><input type="checkbox" name="services" value="Painting" class="form-checkbox text-green-600" /><span class="ml-2 text-gray-700">Painting</span></label>
+                <label class="inline-flex items-center"><input type="checkbox" name="services" value="Flower Bed Maintenance" class="form-checkbox text-green-600" /><span class="ml-2 text-gray-700">Flower Bed Maintenance</span></label>
+                <label class="inline-flex items-center"><input type="checkbox" name="services" value="Hedge Trimming" class="form-checkbox text-green-600" /><span class="ml-2 text-gray-700">Hedge Trimming</span></label>
+              </div>
+            </div>
+            <div>
+              <label for="message" class="block text-gray-700 mb-1">Message</label>
+              <textarea id="message" name="message" rows="4"
+                        placeholder="Tell us about your yard cleaning needs"
+                        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+            </div>
+            <button type="submit"
+                    class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-md transition-colors">
+              Request a Quote
+            </button>
+          </form>
+        </div>
+  
+        <!-- Contact Info -->
+        <div class="lg:w-1/2">
+          <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+            <h3 class="text-xl font-bold mb-6 text-gray-800">Contact Information</h3>
+            <ul class="space-y-4">
+              <li class="flex items-start"><span class="text-green-600 mr-3">📞</span><div><p class="font-medium text-gray-800">Phone</p><p class="text-gray-600">(+27) 84-825-7620</p></div></li>
+              <li class="flex items-start"><span class="text-green-600 mr-3">📧</span><div><p class="font-medium text-gray-800">Email</p><p class="text-gray-600">luzukodandala26@gmail.com</p></div></li>
+              <li class="flex items-start"><span class="text-green-600 mr-3">📍</span><div><p class="font-medium text-gray-800">Address</p><p class="text-gray-600">14 Reginald Lucingo Pl, Mbuqe Ex. Mthatha</p></div></li>
+              <li class="flex items-start"><span class="text-green-600 mr-3">🕒</span><div><p class="font-medium text-gray-800">Business Hours</p><p class="text-gray-600">Monday-Friday: 9am-3pm</p><p class="text-gray-600">Saturday: 8am-1pm</p><p class="text-gray-600">Sunday: Closed</p></div></li>
+            </ul>
+          </div>
+          <div class="bg-green-700 text-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-bold mb-2">Emergency Cleanup?</h3>
+            <p class="mb-4">We offer expedited service for storm damage and urgent yard issues.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-4 py-12">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Company Info -->
+            <div>
+              <h3 class="text-2xl font-bold mb-4">We Green Yard Services</h3>
+              <p class="text-gray-400 mb-4">
+                Professional yard cleaning services committed to transforming your outdoor spaces.
+              </p>
+              <div class="flex space-x-4">
+                <a href="#" aria-label="Facebook" class="text-gray-400 hover:text-white">
+                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22 12A10 10 0 1 0 10.67 21.8v-6.2H8v-3h2.67V10c0-2.6 1.57-4 3.86-4 1.12 0 2.29.2 2.29.2v2.52h-1.29c-1.27 0-1.67.79-1.67 1.6v1.92H17l-.43 3h-2.67v6.2A10 10 0 0 0 22 12Z"/>
+                  </svg>
+                </a>
+                <a href="#" aria-label="Instagram" class="text-gray-400 hover:text-white">
+                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2.2c3.2 0 3.584.012 4.85.07 1.366.062 2.633.367 3.608 1.342.976.976 1.28 2.242 1.342 3.608.058 1.266.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.367 2.633-1.342 3.608-.976.976-2.242 1.28-3.608 1.342-1.266.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.367-3.608-1.342-.976-.976-1.28-2.242-1.342-3.608C2.212 15.584 2.2 15.2 2.2 12s.012-3.584.07-4.85c.062-1.366.367-2.633 1.342-3.608C4.588 2.637 5.854 2.333 7.22 2.27 8.486 2.212 8.87 2.2 12 2.2zm0 1.8c-3.17 0-3.526.012-4.77.068-1.037.048-1.737.225-2.256.744s-.696 1.22-.744 2.256C4.212 8.47 4.2 8.83 4.2 12c0 3.17.012 3.526.068 4.77.048 1.037.225 1.737.744 2.256.519.519 1.22.696 2.256.744C8.47 19.788 8.83 19.8 12 19.8s3.526-.012 4.77-.068c1.037-.048 1.737-.225 2.256-.744.519-.519.696-1.22.744-2.256.056-1.244.068-1.6.068-4.77s-.012-3.526-.068-4.77c-.048-1.037-.225-1.737-.744-2.256s-1.22-.696-2.256-.744C15.526 4.212 15.17 4.2 12 4.2zm0 3.6a4.2 4.2 0 1 0 0 8.4 4.2 4.2 0 0 0 0-8.4zm0 1.8a2.4 2.4 0 1 1 0 4.8 2.4 2.4 0 0 1 0-4.8zm4.8-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0z"/>
+                  </svg>
+                </a>
+                <a href="#" aria-label="Twitter" class="text-gray-400 hover:text-white">
+                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.25 4.25 0 0 0 1.86-2.35 8.48 8.48 0 0 1-2.69 1.03 4.23 4.23 0 0 0-7.2 3.86 12 12 0 0 1-8.72-4.42 4.23 4.23 0 0 0 1.31 5.65A4.2 4.2 0 0 1 3 9.13v.05a4.23 4.23 0 0 0 3.39 4.14 4.3 4.3 0 0 1-1.11.15c-.27 0-.54-.03-.8-.08a4.24 4.24 0 0 0 3.95 2.93A8.5 8.5 0 0 1 2 18.58a12 12 0 0 0 6.29 1.84c7.55 0 11.68-6.26 11.68-11.68 0-.18 0-.35-.01-.53A8.3 8.3 0 0 0 22.46 6z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+      
+            <!-- Services -->
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Services</h3>
+              <ul class="space-y-2 text-gray-400">
+                <li><a href="#" class="hover:text-white">Grass Maintenance</a></li>
+                <li><a href="#" class="hover:text-white">Weed Control</a></li>
+                <li><a href="#" class="hover:text-white">Roof Cleaning & Painting</a></li>
+                <li><a href="#" class="hover:text-white">Painting</a></li>
+                <li><a href="#" class="hover:text-white">Tree & Shrub Trimming</a></li>
+              </ul>
+            </div>
+      
+            <!-- Quick Links -->
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+              <ul class="space-y-2 text-gray-400">
+                <li><a href="#" class="hover:text-white">Home</a></li>
+                <li><a href="#services" class="hover:text-white">Services</a></li>
+                <li><a href="#pricing" class="hover:text-white">Pricing</a></li>
+                <li><a href="#contact" class="hover:text-white">Contact</a></li>
+              </ul>
+            </div>
+      
+            <!-- Service Areas -->
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Service Areas</h3>
+              <ul class="space-y-2 text-gray-400">
+                <li>Mthatha</li>
+                <li>Mqanduli</li>
+                <li>Ncambele</li>
+                <li>VidgesVille</li>
+                <li>Sbangweni</li>
+              </ul>
+            </div>
+          </div>
+      
+          <!-- Footer Bottom -->
+          <div class="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-sm text-gray-400">&copy; 2025 We Green Yard Services. All rights reserved.</p>
+            <div class="flex gap-4 mt-4 md:mt-0 text-sm">
+              <a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a>
+              <a href="#" class="text-gray-400 hover:text-white">Terms of Service</a>
+              <a href="#" class="text-gray-400 hover:text-white">Sitemap</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      <link href="./dist/output.css" rel="stylesheet">
+
+  <script src="script.js"></script>
+</body>
+</html>
