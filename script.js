@@ -31,3 +31,26 @@ document.getElementById('menu-toggle').addEventListener('click', () => {
     });
   });
   
+
+document.querySelector('.contact-form').addEventListener('submit', function (e) {
+  e.preventDefault(); // Prevent default form submission
+
+  const formData = new FormData(this);
+
+  fetch('https://api.web3forms.com/submit', {
+    method: 'POST',
+    body: formData,
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+      if (data.success) {
+        alert('Form submitted successfully!');
+      } else {
+        alert('Error: ' + data.message);
+      }
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
+});
